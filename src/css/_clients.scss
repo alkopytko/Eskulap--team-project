@@ -1,0 +1,38 @@
+.clients {
+    display: block;
+    height: 363px;
+    background-color: $expert-bg-color;
+
+    &__name {
+        display: block;
+        width: 146px;
+        margin: 0 auto;
+        padding-top: 85px;
+        font-size: 50px;
+        line-height: 35px;
+        color: $main-title-color;
+        text-align: center;
+        @include font-face($_font-file: 'lato-v23-latin-300', $_font-name: $default-font-name, $_font-weight: 300, $_font-style: normal);
+    }
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 1140px;
+        padding-top: 60px;
+        padding-bottom: 90px;      
+    }
+}
+
+.list {
+    &__img {
+        @include col(4);
+        @include col(6, md);
+        @include col(12, sm);
+    }
+}
