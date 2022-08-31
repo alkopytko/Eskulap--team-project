@@ -54,6 +54,14 @@
        url('fonts/montserrat-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@include font-face($_font-file: 'lato-v23-latin-regular', $_font-name: $default-font-name, $_font-weight: 400, $_font-style: normal);
+@include font-face($_font-file: 'lato-v23-latin-300', $_font-name: $default-font-name, $_font-weight: 300, $_font-style: normal);
+@include font-face($_font-file: 'lato-v23-latin-700', $_font-name: $default-font-name, $_font-weight: 700, $_font-style: normal);
+@include font-face($_font-file: 'lato-v23-latin-900', $_font-name: $default-font-name, $_font-weight: 900, $_font-style: normal);
+
+
+@include font-face($_font-file: 'montserrat-v25-latin-700', $_font-name: 'Montserrat', $_font-weight: 700, $_font-style: normal);
+@include font-face($_font-file: 'montserrat-v25-latin-regular', $_font-name: 'Montserrat', $_font-weight: 400, $_font-style: normal);
 @include grid();
 
 .test {
