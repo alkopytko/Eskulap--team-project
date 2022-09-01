@@ -1,0 +1,24 @@
+.latest {
+    padding: 90px 0 190px;
+
+    &__title {
+        font-size: 50px;
+        line-height: 35px;
+        color: $main-title-color;
+        font-weight: 300;
+        font-family: "Lato";
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+
+.latest-box {
+    width: 359px;
+    height: 269px;
+    border-radius: 10px;
+    background-color: $works-bg-color;
+    border: 1px solid $works-bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
