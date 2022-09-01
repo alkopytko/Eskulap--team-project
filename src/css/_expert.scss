@@ -1,0 +1,57 @@
+.expert {
+    background-color: $expert-bg-color;
+    padding: 100px 0 0;
+
+    &__title {
+        font-size: 50px;
+        line-height: 35px;
+        color: $main-title-color;
+        font-weight: 300;
+        font-family: "Lato";
+        text-align: center;
+        margin-bottom: 120px;
+    }
+}
+
+.info {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    &__img {
+        width: 139px;
+        height: 139px;
+        border-radius: 70px;
+        background-color: $expert-bg-color;
+        border: 1px solid #b7c0c9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    &__title {
+        font-size: 24px;
+        line-height: 24px;
+        color: $main-title-color;
+        font-weight: 700;
+        font-family: "Lato";
+        text-align: center;
+        margin: 60px 0 30px;
+    }
+
+
+    &__text {
+        font-size: 16px;
+        line-height: 35px;
+        color: $main-text-color;
+        font-weight: 400;
+        font-family: "Lato";
+        text-align: center;
+    }
+}
