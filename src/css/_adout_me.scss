@@ -1,0 +1,30 @@
+
+.about {
+    display: block;
+    background-color: $white-color;
+    height: 410px;
+
+    &__name {
+        display: block;
+        margin: 0 auto;
+        padding-top: 90px;
+        padding-bottom: 55px;
+        font-size: 50px;
+        line-height: 35px;
+        color: $main-title-color;
+        text-align: center;
+        @include font-face($_font-file: 'lato-v23-latin-300', $_font-name: $default-font-name, $_font-weight: 300, $_font-style: normal);
+    }
+
+    &__text {
+        display: block; 
+        margin: 0 auto;          
+        width: 1096px;
+        height: 167px;
+        font-size: 16px;
+        line-height: 35px;
+        color: $main-text-color;
+        text-align: center;
+        @include font-face($_font-file: 'lato-v23-latin-regular', $_font-name: $default-font-name, $_font-weight: 400, $_font-style: normal);
+    }
+}
